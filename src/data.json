@@ -2,23 +2,37 @@
     "posts": [
         {
             "id": 0,
-            "title": "First"
+            "title": "First",
+            "content": "Here is some content about this post"
         },
         {
             "id": 2,
-            "title": "Second"
+            "title": "Second",
+            "content": "Here is some content about this post"
         },
         {
             "id": 3,
-            "title": "Third"
+            "title": "Third",
+            "content": "Here is some content about this post"
         },
         {
             "id": 4,
-            "title": "Forth"
+            "title": "Forth",
+            "content": "Here is some content about this post"
         },
         {
             "id": 5,
-            "title": "NEW"
+            "title": "NEW",
+            "content": "Here is some content about this post"
+        },
+        {
+            "id": 6,
+            "title": "NEWEST",
+            "content": "Here is some content about this post"
         }
-    ]
+    ],
+    "profile": {
+        "name": "Rebekah Coxe",
+        "bio": "This is my bio for now"
+    }
 }

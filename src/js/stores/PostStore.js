@@ -15,6 +15,12 @@ class PostStore extends EventEmitter {
     return this.posts;
   }
 
+  getPost(id) {
+    return this.posts.filter((post) => {
+      return post.id.toString() === id;
+    })[0];
+  }
+
   handleActions(action) {
     switch(action.type) {
       case "RECIEVE_POSTS": {

@@ -6,18 +6,18 @@ export default class Layout extends React.Component {
 
   render() {
     const titleObj = {
-      name: "Todos",
+      name: "Wife And Life",
       url: "/"
     };
 
     const linksObj = [
       {
-        title: "Todos",
+        title: "Home",
         url: "/"
       },
       {
-        title: "Settings",
-        url: "settings"
+        title: "Profile",
+        url: "profile"
       }
     ];
 

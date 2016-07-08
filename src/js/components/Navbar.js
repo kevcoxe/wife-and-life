@@ -45,7 +45,7 @@ export default class Navbar extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href={title.url}>{ title.name }</a>
+            <Link to={title.url} className="navbar-brand">{ title.name }</Link>
           </div>
 
           { navLinks }

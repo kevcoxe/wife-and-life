@@ -1,0 +1,22 @@
+{
+  "name": "learning-react",
+  "description": "help learn react",
+  "main": "webpack.config.js",
+  "authors": [
+    "Kevin Coxe <kevcoxe@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kevcoxe/learning-react",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootswatch-dist": "cosmo"
+  }
+}

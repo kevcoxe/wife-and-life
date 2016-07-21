@@ -49,6 +49,15 @@ export default class PostList extends React.Component {
         maxHeight: "100%",
         WebkitLineClamp: "10",
         WebkitBoxOrient: "vertical"
+      },
+      smallPreview: {
+        overflow: "hidden",
+        textOverflow: "ellipsis",
+        display: "-webkit-box",
+        //lineHeight: "16px",
+        maxHeight: "100px",
+        WebkitLineClamp: "4",
+        WebkitBoxOrient: "vertical"
       }
     };
 
@@ -62,7 +71,8 @@ export default class PostList extends React.Component {
               </div>
               <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8" style={postStyle.post}>
                 <h1><small>{ post.title }</small></h1>
-                <p style={postStyle.preview}>{ post.content }</p>
+                <p className="hidden-sm hidden-md hidden-lg" style={postStyle.previewSmall}>{ post.content }</p>
+                <p className="hidden-xs" style={postStyle.preview}>{ post.content }</p>
                 <Link to={`post/${post.id}`}>Read More</Link>
               </div>
             </div>

@@ -5,16 +5,16 @@ import { Router, Route, IndexRoute, hashHistory } from "react-router";
 import { Provider } from "react-redux";
 
 // stores
-import store from "./store";
+import store from "./js/store";
 
 // components
-import Layout from "./components/Layout";
+import Layout from "./js/components/Layout";
 
 // pages
-import Home from "./pages/Home";
-import Posts from "./pages/Posts";
-import PostPage from "./pages/Post";
-import Profile from "./pages/Profile";
+import Home from "./js/pages/Home";
+import Posts from "./js/pages/Posts";
+import PostPage from "./js/pages/Post";
+import Profile from "./js/pages/Profile";
 
 const app = document.getElementById('app');
 

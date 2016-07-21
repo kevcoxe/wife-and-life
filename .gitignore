@@ -1,5 +1,5 @@
 node_modules/
-src/bower_components/
+bower_components/
 parser_table.py
 *.swp
 .DS_Store

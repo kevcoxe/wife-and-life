@@ -1,4 +1,4 @@
-var DB = require('json!../../data.json');
+var DB = require('json!../../data/data.json');
 
 export default function reducer(state={
   fetching: false,

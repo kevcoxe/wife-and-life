@@ -28,7 +28,7 @@ export default class Layout extends React.Component {
     return (
       <div>
         <Navbar title={titleObj} links={linksObj}/>
-        <div className="col-md-offset-2 col-md-8">
+        <div>
           { this.props.children }
         </div>
       </div>

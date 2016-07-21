@@ -1,12 +1,15 @@
-import dispatcher from "../dispatcher";
+export function getTopFive() {
+  return {type: "FETCH_TOP_POSTS_FULFILLED"};
+}
 
-var DB = require('json!../../data.json');
+export function getPosts() {
+  return {type: "FETCH_POSTS_FULFILLED"};
+}
 
-export function reloadPosts() {
-  dispatcher.dispatch({type: "FETCH_POSTS"});
+export function getSomePosts(count) {
+  return {type: "FETCH_SOME_POSTS_FULFILLED", payload: count};
+}
 
-  setTimeout(() => {
-    dispatcher.dispatch({type: "RECIEVE_POSTS", posts: DB.posts});
-  }, 1000);
-
+export function getPost(id) {
+  return {type: "FETCH_POST_FULFILLED", payload: id};
 }

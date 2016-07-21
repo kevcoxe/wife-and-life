@@ -1,22 +1,32 @@
 
 import React from "react";
+import { connect } from "react-redux";
 
 import Jumbotron from "../components/Jumbotron.js";
 
-import * as UserActions from "../actions/UserActions";
-import UserStore from "../stores/UserStore";
+import * as ProfileActions from "../actions/ProfileActions";
 
+@connect((store) => {
+  return {
+    profile: store.profile.profile
+  };
+})
 export default class Profile extends React.Component {
   constructor() {
     super();
-    this.state = {
-      profile: UserStore.getUser(),
-    };
+  }
+
+  componentDidMount() {
+    this.props.dispatch(ProfileActions.getProfile());
+  }
+
+  componentDidUpdate(oldState, newState) {
+
   }
 
   render() {
 
-    const { profile } = this.state;
+    const { profile } = this.props;
 
     return (
       <div>

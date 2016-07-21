@@ -1,35 +1,30 @@
 import React from "react";
+import { connect } from "react-redux";
 
 import * as PostActions from "../actions/PostActions";
-import PostStore from "../stores/PostStore";
 
-export default class Post extends React.Component {
+import Post from "../components/Post";
+
+export default class PostPage extends React.Component {
   constructor(props) {
     super(props);
-    this.getPost = this.getPost.bind(this);
-    this.state = {
-      post: PostStore.getPost(this.props.params.postId),
-    };
-    console.log(this.state.post);
   }
 
-  getPost(id) {
-    this.setState({
-      post: PostStore.getPost(id),
-    });
+  componentDidMount() {
+    const { postId } = this.props.params;
+  }
+
+  componentDidUpdate(oldState, newState) {
+
   }
 
   render() {
 
     const { postId } = this.props.params;
-    const { post } = this.state;
 
     return (
-      <div>
-        <h1>{post.title}</h1>
-        <br />
-        <p>{ post.content }</p>
-        <br />
+      <div className="row col-xs-offset-0 col-sm-offset-0 col-md-offset-1 col-lg-offset-2 col-xs-12 col-sm-12 col-md-10 col-lg-8">
+        <Post id={postId}/>
       </div>
     );
   }

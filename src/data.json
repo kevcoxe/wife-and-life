@@ -4,37 +4,37 @@
             "id": "0",
             "title": "First",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.",
-            "mainPic": "img/IMG_5689.JPG"
+            "mainPic": "src/img/IMG_5689.JPG"
         },
         {
             "id": "2",
             "title": "Second",
             "content": "Here is some content about this post",
-            "mainPic": "img/new-home-lifestyle-shoot.jpg"
+            "mainPic": "src/img/new-home-lifestyle-shoot.jpg"
         },
         {
             "id": "3",
             "title": "Third",
             "content": "Here is some content about this post",
-            "mainPic": "img/IMG_5689.JPG"
+            "mainPic": "src/img/IMG_5689.JPG"
         },
         {
             "id": "4",
             "title": "Forth",
             "content": "Here is some content about this post",
-            "mainPic": "img/IMG_5689.JPG"
+            "mainPic": "src/img/IMG_5689.JPG"
         },
         {
             "id": "5",
             "title": "NEW",
             "content": "Here is some content about this post",
-            "mainPic": "img/IMG_5689.JPG"
+            "mainPic": "src/img/IMG_5689.JPG"
         },
         {
             "id": "6",
             "title": "NEWEST",
             "content": "Here is some content about this post",
-            "mainPic": "img/IMG_5689.JPG"
+            "mainPic": "src/img/IMG_5689.JPG"
         }
     ],
     "profile": {

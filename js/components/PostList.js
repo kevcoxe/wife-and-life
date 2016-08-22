@@ -67,7 +67,9 @@ export default class PostList extends React.Component {
           <div className="well">
             <div className="row">
               <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src={post.mainPic} alt="Post Picture" className="img-thumbnail center-block" style={postStyle.image}/>
+                <Link to={`post/${post.id}`}>
+                  <img src={post.mainPic} alt="Post Picture" className="img-thumbnail center-block" style={postStyle.image} />
+                </Link>
               </div>
               <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8" style={postStyle.post}>
                 <h1><small>{ post.title }</small></h1>

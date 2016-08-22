@@ -16,7 +16,7 @@ import Posts from "./js/pages/Posts";
 import PostPage from "./js/pages/Post";
 import Profile from "./js/pages/Profile";
 
-const app = document.getElementById('app');
+const app = document.getElementById('view');
 
 ReactDOM.render(
   <Provider store={store}>

@@ -36,7 +36,7 @@ webpackJsonp([0,1],[
 	
 	var _Post2 = _interopRequireDefault(_Post);
 	
-	var _Profile = __webpack_require__(258);
+	var _Profile = __webpack_require__(264);
 	
 	var _Profile2 = _interopRequireDefault(_Profile);
 	
@@ -27281,18 +27281,19 @@ webpackJsonp([0,1],[
 				"id": "0",
 				"title": "A little intro",
 				"content": "Hello there! \nI'm Rebekah and this is my very first blog post, So excited you stopped by! My blog is going to be filled with tasty cooking ideas, inspiring crafts and all around goodness for you to enjoy! Please stop by for the good ideas that are coming soon! \n~rCk",
-				"mainPic": "img/IMG_01.jpg"
+				"mainPic": "img/min/IMG_01-min.jpg"
 			},
 			{
 				"id": "2",
 				"title": "Lady to brighten your Monday",
 				"content": "Since today is Monday and no one likes Monday here is a blog post about something everyone likes... Puppies!! Last Saturday my husband and I took a drive to pickup the newest member of our little family. We were escorted into a pen full of adorable, rowdy puppies and instructed to pick out a few we'd liked to play with. Well it was no easy task let me assure you, but after about two and half hours we had narrowed down one puppy that seemed to think we were pretty cool and we took her home. After considerable thought we named our baby girl Lady due to her ladylike qualities and petite little face. It's been a little rough training her with bad weather the first week and then the hubby giving her big dog treats that upset her little tummy but I think we made the right decision by getting a pup now! Stay tuned for pictures, treat ideas, training techniques and more for your fur babies! \n~rCk",
-				"mainPic": "img/IMG_02.jpeg"
+				"mainPic": "img/min/IMG_02-min.jpeg"
 			}
 		],
 		"profile": {
 			"name": "Rebekah Coxe",
-			"bio": "This is my bio for now"
+			"bio": "Hi I'm Rebekah, I am a believer in Jesus Christ, a new wife and the mother of Lady (the cutest Golden Retriever puppy). Hang around to get cooking ideas and ideas for life.",
+			"pic": "img/min/profile-min.jpg"
 		}
 	};
 
@@ -44084,9 +44085,9 @@ webpackJsonp([0,1],[
 	
 	var _LatestPosts2 = _interopRequireDefault(_LatestPosts);
 	
-	var _Profile = __webpack_require__(258);
+	var _Biotron = __webpack_require__(258);
 	
-	var _Profile2 = _interopRequireDefault(_Profile);
+	var _Biotron2 = _interopRequireDefault(_Biotron);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -44115,7 +44116,7 @@ webpackJsonp([0,1],[
 	        _react2.default.createElement(
 	          "div",
 	          { className: "col-xs-12 col-sm-12 col-md-12 col-lg-12" },
-	          _react2.default.createElement(_Profile2.default, null),
+	          _react2.default.createElement(_Biotron2.default, null),
 	          _react2.default.createElement(_LatestPosts2.default, null)
 	        )
 	      );
@@ -44438,6 +44439,8 @@ webpackJsonp([0,1],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _reactRouter = __webpack_require__(159);
+	
 	var _reactRedux = __webpack_require__(221);
 	
 	var _Jumbotron = __webpack_require__(259);
@@ -44458,20 +44461,20 @@ webpackJsonp([0,1],[
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var Profile = (_dec = (0, _reactRedux.connect)(function (store) {
+	var Biotron = (_dec = (0, _reactRedux.connect)(function (store) {
 	  return {
 	    profile: store.profile.profile
 	  };
 	}), _dec(_class = function (_React$Component) {
-	  _inherits(Profile, _React$Component);
+	  _inherits(Biotron, _React$Component);
 	
-	  function Profile() {
-	    _classCallCheck(this, Profile);
+	  function Biotron(props) {
+	    _classCallCheck(this, Biotron);
 	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Profile).call(this));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Biotron).call(this, props));
 	  }
 	
-	  _createClass(Profile, [{
+	  _createClass(Biotron, [{
 	    key: "componentDidMount",
 	    value: function componentDidMount() {
 	      this.props.dispatch(ProfileActions.getProfile());
@@ -44493,9 +44496,9 @@ webpackJsonp([0,1],[
 	    }
 	  }]);
 	
-	  return Profile;
+	  return Biotron;
 	}(_react2.default.Component)) || _class);
-	exports.default = Profile;
+	exports.default = Biotron;
 
 /***/ },
 /* 259 */
@@ -44758,20 +44761,20 @@ webpackJsonp([0,1],[
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var LatestPosts = (_dec = (0, _reactRedux.connect)(function (store) {
+	var Post = (_dec = (0, _reactRedux.connect)(function (store) {
 	  return {
 	    post: store.posts.post
 	  };
 	}), _dec(_class = function (_React$Component) {
-	  _inherits(LatestPosts, _React$Component);
+	  _inherits(Post, _React$Component);
 	
-	  function LatestPosts(props) {
-	    _classCallCheck(this, LatestPosts);
+	  function Post(props) {
+	    _classCallCheck(this, Post);
 	
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(LatestPosts).call(this, props));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Post).call(this, props));
 	  }
 	
-	  _createClass(LatestPosts, [{
+	  _createClass(Post, [{
 	    key: "componentDidMount",
 	    value: function componentDidMount() {
 	      var id = this.props.id;
@@ -44845,9 +44848,123 @@ webpackJsonp([0,1],[
 	    }
 	  }]);
 	
-	  return LatestPosts;
+	  return Post;
 	}(_react2.default.Component)) || _class);
-	exports.default = LatestPosts;
+	exports.default = Post;
+
+/***/ },
+/* 264 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = undefined;
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _dec, _class;
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRedux = __webpack_require__(221);
+	
+	var _Biotron = __webpack_require__(258);
+	
+	var _Biotron2 = _interopRequireDefault(_Biotron);
+	
+	var _ProfileActions = __webpack_require__(260);
+	
+	var ProfileActions = _interopRequireWildcard(_ProfileActions);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Profile = (_dec = (0, _reactRedux.connect)(function (store) {
+	  return {
+	    profile: store.profile.profile
+	  };
+	}), _dec(_class = function (_React$Component) {
+	  _inherits(Profile, _React$Component);
+	
+	  function Profile() {
+	    _classCallCheck(this, Profile);
+	
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Profile).call(this));
+	  }
+	
+	  _createClass(Profile, [{
+	    key: "componentDidMount",
+	    value: function componentDidMount() {
+	      this.props.dispatch(ProfileActions.getProfile());
+	    }
+	  }, {
+	    key: "componentDidUpdate",
+	    value: function componentDidUpdate(oldState, newState) {}
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      var profile = this.props.profile;
+	
+	
+	      var profileStyle = {
+	        image: {
+	          maxHeight: "600px",
+	          maxWidth: "100%"
+	        },
+	        info: {
+	          minHeight: "100%"
+	        },
+	        bio: {
+	          whiteSpace: "normal",
+	          wordWrap: "break-word"
+	        }
+	      };
+	
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "div",
+	          { className: "col-sm-4 col-md-4 col-lg-4" },
+	          _react2.default.createElement("img", { src: profile.pic, alt: "Post Picture", className: "img-thumbnail center-block", style: profileStyle.image })
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "col-sm-8 col-md-8 col-lg-8" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "well", style: profileStyle.info },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              profile.name
+	            ),
+	            _react2.default.createElement(
+	              "p",
+	              { style: profileStyle.bio },
+	              profile.bio
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Profile;
+	}(_react2.default.Component)) || _class);
+	exports.default = Profile;
 
 /***/ }
 ]);

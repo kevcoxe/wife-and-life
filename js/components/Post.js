@@ -10,7 +10,7 @@ import * as PostActions from "../actions/PostActions";
     post: store.posts.post
   };
 })
-export default class LatestPosts extends React.Component {
+export default class Post extends React.Component {
   constructor(props) {
     super(props);
   }

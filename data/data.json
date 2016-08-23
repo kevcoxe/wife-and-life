@@ -4,17 +4,18 @@
             "id": "0",
             "title": "A little intro",
             "content": "Hello there! \nI'm Rebekah and this is my very first blog post, So excited you stopped by! My blog is going to be filled with tasty cooking ideas, inspiring crafts and all around goodness for you to enjoy! Please stop by for the good ideas that are coming soon! \n~rCk",
-            "mainPic": "img/IMG_01.jpg"
+            "mainPic": "img/min/IMG_01-min.jpg"
         },
         {
             "id": "2",
             "title": "Lady to brighten your Monday",
             "content": "Since today is Monday and no one likes Monday here is a blog post about something everyone likes... Puppies!! Last Saturday my husband and I took a drive to pickup the newest member of our little family. We were escorted into a pen full of adorable, rowdy puppies and instructed to pick out a few we'd liked to play with. Well it was no easy task let me assure you, but after about two and half hours we had narrowed down one puppy that seemed to think we were pretty cool and we took her home. After considerable thought we named our baby girl Lady due to her ladylike qualities and petite little face. It's been a little rough training her with bad weather the first week and then the hubby giving her big dog treats that upset her little tummy but I think we made the right decision by getting a pup now! Stay tuned for pictures, treat ideas, training techniques and more for your fur babies! \n~rCk",
-            "mainPic": "img/IMG_02.jpeg"
+            "mainPic": "img/min/IMG_02-min.jpeg"
         }
     ],
     "profile": {
         "name": "Rebekah Coxe",
-        "bio": "This is my bio for now"
+        "bio": "Hi I'm Rebekah, I am a believer in Jesus Christ, a new wife and the mother of Lady (the cutest Golden Retriever puppy). Hang around to get cooking ideas and ideas for life.",
+        "pic": "img/min/profile-min.jpg"
     }
 }
